@@ -86,7 +86,7 @@ function Form() {
       <input style={styleInput} id="name" name="name" />
       <label style={styleText} htmlFor="email">Email</label>
       <input style={styleInput} id="email" type="email" name="email" />
-      <label style={styleText} htmlFor="description">Descrição</label>
+      <label style={styleText} htmlFor="description">Comentarios (opcional)</label>
       <textarea style={styleInput} id="description" name="description" rows={4} cols={40} />
       <button style={{
         backgroundColor: theme.background,
