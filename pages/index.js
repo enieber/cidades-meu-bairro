@@ -100,11 +100,12 @@ function Form() {
 
 export default function Home() {
   return (
-    <div style={{ gap: 10, display: 'flex', flexDirection: 'column' }}>
+    <div style={{ gap: 10, display: 'flex', flexDirection: 'column', height: 100vh }}>
       <header style={{
-          display: "flex",
-          alignItems: "center",
-          justifyContent: 'center'
+        display: "flex",
+        alignItems: "center",
+        justifyContent: 'center',
+        flex: 1,
       }}>
         <Image
           src="/logo-mb.png"
