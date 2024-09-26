@@ -100,7 +100,7 @@ function Form() {
 
 export default function Home() {
   return (
-    <div style={{ gap: 10, display: 'flex', flexDirection: 'column', height: 100vh }}>
+    <div style={{ gap: 10, display: 'flex', flexDirection: 'column', height: '100vh' }}>
       <header style={{
         display: "flex",
         alignItems: "center",
