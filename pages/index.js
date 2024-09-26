@@ -144,7 +144,8 @@ export default function Home() {
         <div style={{
           display:'flex',
           flexDirection: 'row',
-          justifyContent: 'space-around'
+          justifyContent: 'space-around',
+          flexWrap: 'wrap',
         }}>
           <Image
             src="/construction.png"
